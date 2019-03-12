@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hasil Pendaftaran"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:fontFamily="casual"
+        android:textSize="60px"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="28dp"
+        android:id="@+id/txtNama"
+        android:layout_below="@+id/textView2" />
+    <TextView
+
+        android:id="@+id/txtEmail"
+        android:paddingLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/txtNama"
+        android:layout_marginTop="25dp"
+        android:text="Email"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:text="Tahun"
+        android:id="@+id/txtTahun"
+        android:layout_below="@+id/txtEmail"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:paddingLeft="15dp"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:id="@+id/txtAlamat"
+        android:layout_below="@+id/txtTahun"
+        android:layout_marginTop="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:paddingLeft="15dp"
+        android:layout_height="wrap_content"
+        android:text="Telp. "
+        android:id="@+id/txtTelepon"
+        android:layout_below="@+id/txtAlamat"
+        android:layout_marginTop="25dp" />
+
+</RelativeLayout>
